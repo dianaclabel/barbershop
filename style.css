@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: bisque;
+  text-align: center;
+}
+.container {
+  font-size: 1.6rem;
+  padding: 0 10%;
+}
+h1 {
+  font-size: 4rem;
+  padding: 20px;
+}
+
+.footer {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+}
