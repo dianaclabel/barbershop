@@ -11,10 +11,33 @@ body {
   background-color: bisque;
   text-align: center;
 }
-.container {
-  font-size: 1.6rem;
-  padding: 0 10%;
+.imag-principal {
+  width: 80%;
+
+  object-fit: contain;
 }
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 0 50px 0;
+}
+
+.sidebar h2 {
+  font-size: 2rem;
+}
+.sidebar ul {
+  list-style: none;
+}
+.main {
+  width: 80%;
+  font-size: 1.6rem;
+  padding: 0 30px 0 50px;
+}
+
 h1 {
   font-size: 4rem;
   padding: 20px;
