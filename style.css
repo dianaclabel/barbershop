@@ -9,12 +9,19 @@ html {
 
 body {
   background-color: bisque;
-  text-align: center;
+}
+.header h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 .imag-principal {
-  width: 80%;
-
+  width: 60%;
+  border-radius: 10px;
   object-fit: contain;
+  display: block;
+  margin: auto;
 }
 .container {
   display: flex;
@@ -24,6 +31,7 @@ body {
 .sidebar {
   width: 20%;
   padding: 0 50px 0;
+  border: 1px solid black;
 }
 
 .sidebar h2 {
@@ -38,9 +46,10 @@ body {
   padding: 0 30px 0 50px;
 }
 
-h1 {
-  font-size: 4rem;
+.main h2 {
+  font-size: 2.5rem;
   padding: 20px;
+  text-align: center;
 }
 
 .footer {
