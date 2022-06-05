@@ -3,53 +3,64 @@
   margin: 0;
 }
 
-html {
-  font-size: 62.5%;
+body {
+  width: 100vw;
 }
 
-body {
-  background-color: bisque;
+.titulo-principal {
+  padding-left: 30px;
 }
-.header h1 {
-  font-size: 4rem;
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-.imag-principal {
-  width: 60%;
-  border-radius: 10px;
-  object-fit: contain;
-  display: block;
-  margin: auto;
-}
+
 .container {
+  height: 90vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.sidebar {
-  width: 20%;
-  padding: 0 50px 0;
-  border: 1px solid black;
+#banner {
+  width: 60%;
 }
 
-.sidebar h2 {
-  font-size: 2rem;
-}
-.sidebar ul {
-  list-style: none;
-}
-.main {
-  width: 80%;
-  font-size: 1.6rem;
-  padding: 0 30px 0 50px;
-}
-
-.main h2 {
-  font-size: 2.5rem;
+.principal {
+  background: #cccccc;
   padding: 20px;
+}
+
+.titulo-centralizado {
   text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+em strong {
+  color: red;
+}
+
+#mision {
+  font-size: 20px;
+}
+
+.diferenciales {
+  background: #ffffff;
+  padding: 30px;
+}
+
+.items {
+  font-style: italic;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagenDiferenciales {
+  width: 20%;
 }
 
 .footer {
@@ -57,7 +68,8 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  width: 100%;
+  width: 100vw;
+  height: 10vh;
   position: fixed;
   bottom: 0;
 }
