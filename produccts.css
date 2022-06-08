@@ -1,5 +1,17 @@
 header {
   background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+.caja {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
 
 nav li {
