@@ -1,80 +1,87 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
 }
 
-body {
-  width: 100vw;
+.caja {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
 
-.titulo-principal {
-  padding-left: 30px;
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
 }
 
-.container {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+nav a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
 
-#banner {
-  width: 60%;
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
 }
 
-.principal {
-  background: #cccccc;
-  padding: 20px;
-}
-
-.titulo-centralizado {
+.products {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
   text-align: center;
 }
 
-p {
-  text-align: center;
-}
-
-em strong {
-  color: red;
-}
-
-#mision {
-  font-size: 20px;
-}
-
-.diferenciales {
-  background: #ffffff;
-  padding: 30px;
-}
-
-.items {
-  font-style: italic;
-}
-
-ul {
+.products li {
   display: inline-block;
+  text-align: center;
+  width: 20%;
   vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: #000 solid 2px;
+  border-radius: 10px;
 }
 
-.imagenDiferenciales {
-  width: 20%;
+.products li:hover {
+  border-color: #c78c19;
 }
 
-.footer {
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-  width: 100vw;
-  height: 10vh;
-  position: fixed;
-  bottom: 0;
+.products h2 {
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.footer ul {
-  list-style: none;
-  display: flex;
+.products li:hover h2 {
+  font-size: 33px;
+}
+
+.products-description {
+  font-size: 18px;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: url(asset/bg.jpg);
+  padding: 40px;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin: 20px;
 }
