@@ -30,23 +30,36 @@
     <main>
       <form action="">
         <label for="name">Nombre y apellido</label>
-        <input type="text" id="name" class="input-padron" />
+        <input type="text" id="name" class="input-padron" required />
 
         <label for="email">Correo Electronico</label>
-        <input type="email" id="email" class="input-padron" />
+        <input
+          type="email"
+          id="email"
+          class="input-padron"
+          required
+          placeholder="email@dominio.com"
+        />
 
         <label for="phone">Telefono</label>
-        <input type="number" id="phone" class="input-padron" />
+        <input
+          type="number"
+          id="phone"
+          class="input-padron"
+          required
+          placeholder="(xx) xxx xxx xxx"
+        />
         <label for="mensaje">Mensaje</label>
         <textarea
           id="mensaje"
           cols="70"
           rows="10"
           class="input-padron"
+          required
         ></textarea>
 
         <div>
-          <p>Como le gustaria que lo contactemos</p>
+          <p class="test" id="test">¿Como le gustaria que lo contactemos'</p>
 
           <label for="radio-email">
             <input
@@ -72,12 +85,23 @@
               name="contacto"
               value="whatsapp"
               id="radio-whatsapp"
+              checked
             />WhatsApp</label
           >
         </div>
+
+        <div>
+          <p>¿En cual horario prefiere ser atendido?</p>
+          <select name="" id="">
+            <option>Mañana</option>
+            <option>Tarde</option>
+            <option>Noche</option>
+          </select>
+        </div>
+
         <label class="checkbox"
-          ><input type="checkbox" />Le gustaría recibir novedades de la Barberia
-          Alura</label
+          ><input type="checkbox" checked />¿Le gustaría recibir novedades de la
+          Barberia? Alura</label
         >
         <input type="submit" value="Enviar formulario" />
       </form>
