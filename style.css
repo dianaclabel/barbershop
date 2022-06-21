@@ -187,7 +187,21 @@ th {
   margin: 0 0 2em;
   text-align: center;
 }
-.imagenDiferenciales {
+
+.contenido-diferenciales {
+  width: 640px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.lista-diferenciales {
+  width: 40%;
+}
+
+.items {
+  line-height: 1.5em;
+}
+.imagen-diferenciales {
   width: 60%;
 }
 
