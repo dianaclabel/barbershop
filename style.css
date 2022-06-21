@@ -93,10 +93,6 @@ footer {
   margin: 20px;
 }
 
-main {
-  width: 940px;
-  margin: 0 auto;
-}
 form {
   margin: 40px 0;
 }
@@ -156,11 +152,15 @@ th {
 .banner {
   width: 100%;
 }
-
+.principal {
+  padding: 3em 0;
+  width: 940px;
+  margin: 0 auto;
+}
 .titulo-principal {
   text-align: center;
   font-size: 2em;
-  margin: 40px 0 1em;
+  margin: 0 0 1em;
   clear: left;
 }
 
@@ -183,11 +183,25 @@ th {
   margin: 20px;
   border-radius: 10px;
 }
+
+.mapa {
+  padding: 3em 0;
+  background: linear-gradient(#ffff, rgb(199, 199, 199));
+}
 .mapa p {
   margin: 0 0 2em;
   text-align: center;
 }
 
+.mapa-contenido {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.diferenciales {
+  padding: 3em 0;
+  background: rgb(199, 199, 199);
+}
 .contenido-diferenciales {
   width: 640px;
   margin: 0 auto;
@@ -200,6 +214,10 @@ th {
 
 .items {
   line-height: 1.5em;
+}
+
+.items:first-child {
+  font-weight: bold;
 }
 .imagen-diferenciales {
   width: 60%;
