@@ -226,8 +226,16 @@ th {
   font-weight: bold;
   padding-bottom: 8px;
 }
+
 .imagen-diferenciales {
   width: 60%;
+  transition: 400ms;
+  border-radius: 10px;
+  box-shadow: -1px -1px 32px 6px #090404ad;
+}
+
+.imagen-diferenciales:hover {
+  opacity: 0.7;
 }
 
 .video {
