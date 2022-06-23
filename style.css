@@ -47,7 +47,7 @@ nav a:hover {
   display: inline-block;
   text-align: center;
   width: 28%;
-  height: 380px;
+  height: 400px;
   vertical-align: top;
   margin: 0 1.5%;
   padding: 30px 20px;
@@ -55,9 +55,11 @@ nav a:hover {
   border: #000 solid 2px;
   border-radius: 10px;
 }
-.products img {
+.products .imagen {
   width: 100%;
+  height: 70%;
 }
+
 .products li:hover {
   border-color: #c78c19;
 }
@@ -94,7 +96,7 @@ footer {
 }
 
 form {
-  margin: 40px 0;
+  margin: 40px;
 }
 
 form label,
@@ -244,12 +246,29 @@ th {
 }
 
 @media screen and (max-width: 480px) {
+  header {
+    padding: 20px;
+  }
   h1 {
     text-align: center;
   }
   nav {
     position: static;
     text-align: center;
+  }
+  .principal,
+  .mapa,
+  .diferenciales {
+    padding: 1em 20px;
+  }
+
+  .principal .utensilios {
+    width: 30%;
+    margin: 10px;
+  }
+  .lista-diferenciales {
+    padding: 0 80px;
+    margin-bottom: 20px;
   }
   .caja,
   .principal,
@@ -264,6 +283,28 @@ th {
 
   .lista-diferenciales,
   .imagen-diferenciales {
+    width: 100%;
+  }
+  /*productos*/
+
+  .products li {
+    display: block;
+    width: 80%;
+    margin: 20px auto 0;
+  }
+
+  .products img {
+    width: 100%;
+  }
+  /*contacto*/
+  form label,
+  form legend {
+    font-size: 16px;
+  }
+  .input-padron {
+    width: 80%;
+  }
+  .enviar {
     width: 100%;
   }
 }
