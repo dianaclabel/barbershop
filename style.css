@@ -242,3 +242,28 @@ th {
   width: 940px;
   margin: 1em auto;
 }
+
+@media screen and (max-width: 480px) {
+  h1 {
+    text-align: center;
+  }
+  nav {
+    position: static;
+    text-align: center;
+  }
+  .caja,
+  .principal,
+  .mapa-contenido,
+  .contenido-diferenciales,
+  .video {
+    width: auto;
+  }
+  .contenido-diferenciales {
+    display: block;
+  }
+
+  .lista-diferenciales,
+  .imagen-diferenciales {
+    width: 100%;
+  }
+}
